@@ -1,0 +1,158 @@
+.logo img {
+  width: 164px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.list ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.list ul li:hover{
+  color: blue;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  margin: 70px;
+  font-family: sans-serif;
+}
+
+.first p {
+  font-size: 23px;
+  width: 71vw;
+  text-align: center;
+  font-weight:lighter
+}
+
+.first span {
+  font-size: 45px;
+}
+
+.btn {
+  padding: 13px 20px;
+  background-color: #00b6d1;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  margin: 6px 0px;
+  transition: opacity 0.15s;
+}
+.btn:hover{
+  opacity: 0.8;
+  transition: background-color 0.30s,color 0.30s ;
+}
+
+.first img {
+  width: 120px;
+  margin: 0px 10px;
+}
+
+.download {
+  display: flex;
+  /* flex-direction:row; */
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 24px;
+  padding-right: 35px;
+  font-family: sans-serif;
+  margin:50px;
+
+}
+
+.small{
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight:lighter;
+}
+
+section span img{
+  width: 59px;
+  margin: -19px 10px;
+}
+
+.blue{
+  padding: 13px 20px;
+  background-color:#00b6d1;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  margin: 6px 0px;
+}
+.blue:active{
+  background-color: white;
+  color: #00b6d1;
+  transition: background-color 0.15,color 0.15s ;
+}
+.green{
+  padding: 13px 20px;
+  background-color:  #5cb75c;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  margin: 6px 0px;
+}
+ .green:active{
+  background-color: white;
+  color: #5cb75c;
+  transition: background-color 0.15s,color 0.15s ;
+ }
+.second{
+  width: 60vw;
+  margin: auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.item{
+  background-color: #f8f2f2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.item-lang{
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 36px;
+}
+.green a{
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width:900px){
+  .grid{
+    display:grid;
+  grid-template-columns: 1fr;
+gap: 12px;
+}
+} 
